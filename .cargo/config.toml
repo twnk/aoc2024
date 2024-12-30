@@ -10,3 +10,6 @@ time = "run --quiet --release -- time"
 
 [env]
 AOC_YEAR = "2024"
+
+[target.aarch64-apple-darwin]
+rustflags = ["-Ctarget-cpu=native"]

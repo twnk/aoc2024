@@ -20,11 +20,16 @@ today = ["chrono"]
 test_lib = []
 
 [dependencies]
+atoi_simd = "0.16.0"
 
 # Template dependencies
 chrono = { version = "0.4.38", optional = true }
 dhat = { version = "0.3.3", optional = true }
+itertools = "0.13.0"
+num-traits = "0.2.19"
 pico-args = "0.5.0"
+rayon = "1.10.0"
+regex = "1.11.1"
 tinyjson = "2.5.1"
 
 # Solution dependencies
